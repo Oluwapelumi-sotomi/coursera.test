@@ -1,0 +1,178 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header{
+    background-color: blanchedalmond;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Head-A{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 70px;
+}
+
+.large{
+    font-size: 35px;
+}
+
+p{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+
+.blue{
+     color: blue;
+}
+
+.Head-B{
+    
+    color: black;
+}
+
+ul{
+   float: right;
+   
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+ul li a{
+    color: black;
+}
+
+.container{
+        padding-top: 200px;
+        padding-left: 25%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 1000px;
+}
+
+pre{
+    font-size: 40px;
+    font-weight: bold;
+    /*padding-left: 25%;*/
+   line-height: 50px;
+   position: relative;
+}
+
+p{
+   color: rgb(104, 103, 103);
+}
+
+.container2{
+ padding: 80px;
+ padding-top: 15%;
+}
+
+.comp{
+   text-align: center;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+   height: 50px;
+   width: 500px;
+   margin-bottom: 100px;
+}
+
+.comp p{
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.comp .bold{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.input-tag{
+    font-weight: bold;
+}
+
+input{
+    color: black;
+}
+
+.form-control{
+    background-color: rgb(168, 198, 253);
+    border-color: rgb(85, 144, 253);
+    border-radius: 10px;
+    border-width: 1.5px;
+    color: rgb(8, 8, 8);
+}
+
+.formGroupExampleInput{
+    color: black;
+}
+
+.upload{
+    font-size: 1em;
+    color: black;
+}
+
+.broken-lines{
+    display: flex;
+    flex-wrap: wrap;
+    /*height: 200px;
+    width: 500px;*/
+    background-color: rgb(168, 198, 253);
+    border: 1.5px dashed rgb(85, 144, 253);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 80px;
+}
+
+
+.broken-lines p{
+    font-size: 12px;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+p .btn-primary
+{ 
+    box-shadow: 5px black;
+    height: 60px;
+    width: 100px;
+
+}
+
+.btn-info{
+    background-color: rgb(8, 85, 252);
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    border: 1px rgb(8, 85, 252);
+}
+
+.btn-info:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+
